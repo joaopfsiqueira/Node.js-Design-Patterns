@@ -1,0 +1,6 @@
+-   O padrão de módulo revelador descreve uma distinção entre métodos e propriedades públicas e privadas
+-   No navegador, as funções geralmente são agrupadas em uma expressão de função invocada imediatamente (iffe) para simular um escopo privado
+-   Node.js não implementa um namespace global, embora uma variável global seja oferecida, mas desencorajada
+-   Os módulos Node.Js implementam os padrões do módulo revelador nativamente
+-   Apenas métodos exportados estão disponíveis para o consumidor, todo o resto é local (privado) para os módulos
+-   Ao usar classes ES6, podemos usar símbolos para implementar métodos privados.
