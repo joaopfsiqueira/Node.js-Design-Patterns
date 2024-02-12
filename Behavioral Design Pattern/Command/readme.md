@@ -1,0 +1,3 @@
+Vamos lá, o Command permite encapsular um objeto e fornecer a outro uma forma de executar o método do objeto encapsulado de forma dinâmica, o objeto que da inicio a ação é um controle remoto que tem um comando definido em um dos seus slots , responsável pela execução do objeto alvo, o controle remoto, pode ter vários slots e nós podemos configurar cada slot uma operação diferente, e em qualquer momento modificar a ação do slot configurando outra operação, vamos também ver mais um pouco de ligação leve já falado na parte 4 dessa série.
+
+eu pessoalmente não gosto! prefiro o strategy quando falamos de behavioral patterns
